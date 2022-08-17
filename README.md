@@ -6,7 +6,7 @@ Em desenvolvimento...
 # Sobre o projeto
 
 Este é meu portifólio profissional, com finalidade de divulgar meu trabalho como desenvolvedor Front-end. 
-Nele é possível ver outros projetos, bem como saber mais sobre mim, e minhas experiências e habilidades profissionais.
+Nele é possível ver outros projetos, bem como saber mais sobre mim, minhas experiências e habilidades profissionais.
 
 ## Layout mobile
 ...
