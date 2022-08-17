@@ -1,7 +1,7 @@
 Em desenvolvimento...
 
 # Portifólio
-[![NPM](https://img.shields.io/npm/l/react)]
+![NPM](https://img.shields.io/npm/l/react)
 
 # Sobre o projeto
 
