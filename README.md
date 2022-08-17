@@ -22,11 +22,6 @@ Nele é possível ver outros projetos, bem como saber mais sobre mim, e minhas e
 - HTML
 - CSS
 
-## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
 # Como executar o projeto
 
 Pré-requisitos: npm
@@ -37,8 +32,9 @@ git clone git@github.com:HederAlves/portifolio.git
 
 ** executar o projeto **
 npm run start
+```
 
-# Desenvolvedor
+## Desenvolvedor
 
-Heder Alves
+Heder Alves - 
 https://www.linkedin.com/in/hederalves/
