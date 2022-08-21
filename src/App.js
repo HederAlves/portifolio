@@ -1,5 +1,5 @@
 import imgPerfil from './assets/img/heder-dev.png'
-import gifPerfil from './assets/gif/play-heder.gif'
+import gifBanner from './assets/gif/gif-banner.gif'
 import iconLinkedin from './assets/icon/icon-linkedin.png'
 import iconGithub from './assets/icon/icon-github.png'
 import iconInstagram from './assets/icon/icon-instagram.png'
@@ -16,7 +16,6 @@ export default function App() {
     <>
       <header className='h-32 bg-black flex justify-around items-center'>
         <img className="border-2 border-orange-900 bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600 rounded-full w-24 h-24 p-1" src={imgPerfil} alt="Desenho de colaboradores" />
-        <img className='h-[200px] ' src={gifPerfil} alt="Desenho de colaboradores" />
         <ul>
           <li><button>Home</button></li>
           <li><button>Projetos</button></li>
@@ -29,6 +28,7 @@ export default function App() {
           <li><a href={user.instagram}><img className="border-2 border-orange-900 hover:bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600 rounded-full w-12 p-2" src={iconInstagram} alt="Desenho de colaboradores" /></a></li>
         </ul>
       </header>
+      <section><img src={gifBanner} alt="Desenho de colaboradores" /></section>
     </>
   )
 }
