@@ -1,10 +1,9 @@
-import imgPerfil from './assets/img/heder-dev.png'
-import iconLinkedin from './assets/icon/icon-linkedin.png'
-import iconGithub from './assets/icon/icon-github.png'
-import iconInstagram from './assets/icon/icon-instagram.png'
+import imgPerfil from '../../assets/img/heder-dev.png'
+import iconLinkedin from '../../assets/icon/icon-linkedin.png'
+import iconGithub from '../../assets/icon/icon-github.png'
+import iconInstagram from '../../assets/icon/icon-instagram.png'
 
-
-  export const Header = (props) => {
+  export function Header  (props)  {
 
     var user = {
       linkedin:'https://www.linkedin.com/in/hederalves/',
