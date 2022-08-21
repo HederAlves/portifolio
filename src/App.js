@@ -28,7 +28,9 @@ export default function App() {
           <li><a href={user.instagram}><img className="border-2 border-orange-900 hover:bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600 rounded-full w-12 p-2" src={iconInstagram} alt="Desenho de colaboradores" /></a></li>
         </ul>
       </header>
-      <section><img src={gifBanner} alt="Desenho de colaboradores" /></section>
+      <section className='flex justify-center'>
+        <img className='w-1/2 h-[250px]' src={gifBanner} alt="Desenho de colaboradores" />
+      </section>
     </>
   )
 }
