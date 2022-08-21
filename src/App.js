@@ -1,4 +1,4 @@
-import { Header } from "../src/components/Header"
+import { Header } from "./components/Header/Header"
 import gifBanner from './assets/gif/gif-banner.gif'
 
 export default function App() {
