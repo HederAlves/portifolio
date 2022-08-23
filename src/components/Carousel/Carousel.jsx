@@ -1,19 +1,32 @@
-import gifBanner from '../../assets/gif/gif-banner.gif'
-import setaDireita from '../../assets/icon/seta-direita.png'
-import setaEsquerda from '../../assets/icon/seta-esquerda.png'
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
-  export function Carousel (props)  {
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-    return (
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
-      <>
-      <section  className='flex justify-center gap-10 mt-5'>
-        <button><img src={ setaEsquerda } /></button>
-        <div className='flex justify-center shadow-2xl shadow-black w-2/3'>
-        <img className='w-full h-[350px]' src={gifBanner} alt="Desenho de colaboradores" />
-        </div>
-        <button><img src={ setaDireita }/></button>
-      </section>
-    </>
-
-    )}
+export function Carousel () {
+  return (
+    <Swiper
+      // install Swiper modules
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      slidesPerView={3}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      onSwiper={(swiper) => console.log(swiper)}
+      onSlideChange={() => console.log('slide change')}
+    >
+      <SwiperSlide>Slide 1</SwiperSlide>
+      <SwiperSlide>Slide 2</SwiperSlide>
+      <SwiperSlide>Slide 3</SwiperSlide>
+      <SwiperSlide>Slide 4</SwiperSlide>
+      ...
+    </Swiper>
+  );
+};
