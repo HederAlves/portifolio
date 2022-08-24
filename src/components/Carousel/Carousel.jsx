@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-export function Carousel() {
+export function Carousel (props) {
   const [repositories, setRepositories] = useState([]);
 
   useEffect(() => {
