@@ -1,7 +1,7 @@
 import { Header } from "./components/Header/Index"
-import { Footer } from "./components/Footer/Footer"
-import { Carousel } from "./components/Carousel/Carousel"
-import {Banner} from "./components/Banner/Banner"
+import { Footer } from "./components/Footer/Index"
+import { Carousel } from "./components/Carousel/Index"
+import {Banner} from "./components/Banner/Index"
 
 export default function App() {
 
