@@ -38,7 +38,6 @@ export function Carousel() {
         >
           {" "}
           {repositories.map((repository) => {
-            console.log(repository.name);
             return (
               <SwiperSlide className="flex flex-col text-center p-2 border-2 border-lime-500 hover:border-orange-500 my-5 rounded-md">
                 <div className="p-2 bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600">
