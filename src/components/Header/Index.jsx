@@ -3,12 +3,12 @@ import iconLinkedin from '../../assets/icon/icon-linkedin.png'
 import iconGithub from '../../assets/icon/icon-github.png'
 import iconInstagram from '../../assets/icon/icon-instagram.png'
 
-  export function Header (props)  {
+  export function Header  (props)  {
 
     var user = {
       linkedin:'https://www.linkedin.com/in/hederalves/',
       github:'https://github.com/HederAlves',
-      instagram:'https://www.instagram.com/_hederalves/'
+      instagram:''
     }
 
     return (
