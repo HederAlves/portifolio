@@ -1,4 +1,7 @@
-Em desenvolvimento...
+Em desenvolvimento... 
+
+1º versão lançada.
+2º versão lançamento agendado para 01/setembro/2022
 
 # Portifólio
 ![NPM](https://img.shields.io/npm/l/react)
@@ -8,11 +11,11 @@ Em desenvolvimento...
 Este é meu portifólio profissional, com finalidade de divulgar meu trabalho como desenvolvedor Front-end. 
 Nele é possível ver outros projetos, bem como saber mais sobre mim, minhas experiências e habilidades profissionais.
 
-## Layout mobile
-...
-
 ## Layout web
-...
+... Em breve
+
+## Layout mobile
+
 
 # Tecnologias utilizadas
 
