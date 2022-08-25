@@ -45,8 +45,7 @@ export function Carousel (props) {
                 </div>
                 <img className="" src={imageRepo} alt="Imagem repositório" />
                 <p className="bg-white py-4">
-                  What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-                  printing and typesetting.
+                 { repository.description }
                 </p>
                 <a
                   className="text-orange-500 hover:text-lime-500 pt-5 pb-2"
