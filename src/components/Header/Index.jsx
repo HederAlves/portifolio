@@ -8,7 +8,7 @@ import iconInstagram from '../../assets/icon/icon-instagram.png'
     var user = {
       linkedin:'https://www.linkedin.com/in/hederalves/',
       github:'https://github.com/HederAlves',
-      instagram:''
+      instagram:'https://www.instagram.com/_hederalves/'
     }
 
     return (
