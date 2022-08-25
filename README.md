@@ -12,10 +12,10 @@ Este é meu portifólio profissional, com finalidade de divulgar meu trabalho co
 Nele é possível ver outros projetos, bem como saber mais sobre mim, minhas experiências e habilidades profissionais.
 
 ## Layout web
-... Em breve
+
 
 ## Layout mobile
-
+... Disponível na 2° versão
 
 # Tecnologias utilizadas
 
