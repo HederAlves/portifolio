@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "style.css";
+
+import imageRepo from "../../assets/img/image-repo.jpg";
+
+import "./style.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
