@@ -1,3 +1,5 @@
+import "./style.css"
+
 export function Footer(props) {
   return (
     <>
@@ -45,22 +47,22 @@ export function Footer(props) {
             </p>
           </article>
 
-          <article className="w-1/3 text-white h-[150px] pl-5">
-            <h2 className="font-extrabold text-lime-500 text-center">
+          <article className="articleRigth">
+            <h2 className="titleArticleRigth">
               HardSkills
             </h2>
-            <ul className="mt-5 flex justify-around">
-              <div className="flex flex-col gap-2">
+            <ul className="ulRigth">
+              <div className="divRigth">
                 <li>- React.js.</li>
                 <li>- Node.js.</li>
                 <li>- Git.</li>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="divRigth">
                 <li>- JavaScript.</li>
                 <li>- HTML.</li>
                 <li>- CSS.</li>
               </div>
-              <div className="flex flex-col gap-2">
+              <div className="divRigth">
                 <li>- Vue.js.</li>
                 <li>- TailwindCSS.</li>
                 <li>- SQL.</li>
