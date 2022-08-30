@@ -1,3 +1,11 @@
+.containerMain{
+    @apply px-10 bg-black;
+}
+
+.titleContainer{
+    @apply font-extrabold text-cyan-400 text-center bg-black pt-8 text-3xl
+}
+
 .swiperSlide{
     @apply flex flex-col text-center p-2 border-2 border-lime-500 hover:border-orange-500 my-5 rounded-md;
 }
