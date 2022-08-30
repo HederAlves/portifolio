@@ -22,8 +22,8 @@ export function Carousel (props) {
 
   return (
     <>
-      <div className="px-10 bg-black">
-        <h1 className="font-extrabold text-cyan-400 text-center bg-black pt-8 text-3xl">
+      <div className="containerMain">
+        <h1 className="titleContainer">
           Meus Projetos
         </h1>
         <Swiper
