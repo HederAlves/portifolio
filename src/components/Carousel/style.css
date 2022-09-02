@@ -1,17 +1,17 @@
-.containerMain{
+.containerMainCarousel{
     @apply px-10 bg-black;
 }
 
 .titleContainer{
-    @apply font-extrabold text-cyan-400 text-center bg-black pt-8 text-3xl
+    @apply font-extrabold text-cyan-400 text-center bg-black pt-8 text-3xl;
 }
 
 .swiperSlide{
-    @apply flex flex-col text-center p-2 border-2 border-lime-500 hover:border-orange-500 my-5 rounded-md;
+    @apply flex flex-col text-center p-2 border-2 border-lime-500 hover:border-orange-500 my-5 rounded-md xl:w-1/2;
 }
 
 .headerCard{
-    @apply p-2 bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600;
+    @apply p-2 bg-gradient-to-r from-lime-500 to-orange-700;
 }
 
 .titleCard{
@@ -19,9 +19,12 @@
 }
 
 .textCard{
-    @apply bg-white py-4;
+    @apply bg-white py-4 font-medium text-xl h-48 xl:h-auto;
 }
 
 .linkCard{
     @apply text-orange-500 hover:text-lime-500 pt-5 pb-2;
+}
+.swiper-button-next {
+    @apply mt-10
 }

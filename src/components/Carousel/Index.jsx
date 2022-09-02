@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
-import imageRepo from "../../assets/img/image-repo.jpg";
+import imageRepo from "../../assets/img/code.jpg";
 
 import "./style.css";
 import "swiper/css";
@@ -22,19 +21,18 @@ export function Carousel (props) {
 
   return (
     <>
-      <div className="containerMain">
+      <div className="containerMainCarousel">
         <h1 className="titleContainer">
           Meus Projetos
         </h1>
         <Swiper
-          className="bg-black"
+          className="bg-black xl:w-1/2"
           // install Swiper modules
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          modules={[Navigation, Pagination, A11y]}
           spaceBetween={50}
-          slidesPerView={3}
+          slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log("slide change")}
         >
@@ -45,7 +43,7 @@ export function Carousel (props) {
                 <div className="headerCard">
                   <h1 className="titleCard">{repository.name}</h1>
                 </div>
-                <img src={imageRepo} alt="Imagem repositório" />
+                <img className="px-12 py-6" src={imageRepo} alt="Imagem repositório" />
                 <p className="textCard">
                  { repository.description }
                 </p>
