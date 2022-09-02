@@ -1,0 +1,23 @@
+.containerMainHeader {
+    @apply h-56 xl:h-20 bg-black pt-6 flex flex-col xl:flex-row xl:justify-between xl:items-center gap-5 xl:gap-0 xl:px-5;
+}
+
+.containerTitleImage {
+    @apply flex items-center justify-around xl:w-[350px] pl-2 xl:px-0;
+}
+
+.imageHeader {
+    @apply border-2 border-orange-900 bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600 rounded-full w-16 h-14 p-1 m-5;
+}
+
+.titleHeader {
+    @apply font-extrabold text-orange-500 text-2xl text-center pr-6;
+}
+
+.containerContact {
+    @apply flex justify-around xl:w-52 ;
+}
+
+.imageContact {
+    @apply border-2 border-orange-900 hover:bg-gradient-to-r from-yellow-400 via-orange-500 via-red-600 to-fuchsia-600 rounded-full w-12 p-2;
+}
