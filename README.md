@@ -2,7 +2,7 @@ Em desenvolvimento...
 
 1º versão lançada.
 2º versão lançada.
-3° versão lançamento previsto para dia 08/SET/2022.(Melhorias no designer mobile e desktop, melhorias no carousel e divulgação dos projetos).
+3° versão lançamento previsto para dia 15/SET/2022.(Melhorias no designer mobile e desktop, melhorias no carousel e divulgação dos projetos).
 
 # Portifólio
 ![NPM](https://img.shields.io/npm/l/react)
